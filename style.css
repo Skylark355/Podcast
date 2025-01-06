@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Kanit", serif;
+  transition: all 0.1s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+section {
+  padding: 2rem 7%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 10rem; */
+  padding: 2rem 7%;
+  z-index: 1;
+}
+
+.header-logo {
+  width: 20%;
+}
+
+.header-logo img {
+  height: 6rem;
+}
+
+.navbar-items {
+  width: 40%;
+  display: flex;
+  gap: 7rem;
+  margin-left: 20rem;
+}
+
+.navbar-items a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.navbar-items a:hover {
+  color: #ea0505;
+}
+
+.nav-cta {
+  width: 20%;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-cta a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.nav-cta a:hover {
+  background-color: #ea0505;
+}
+
+.nav-cta .login {
+  background-color: rgba(225, 225, 225, 0.399);
+  padding: 0.5rem 1.5rem;
+  border-radius: 9px;
+  backdrop-filter: blur(10px);
+}
+
+.nav-cta .subscribe {
+  padding: 0.5rem 1rem;
+  border-radius: 9px;
+  border: 1px solid white;
+}
+
+/* header section ends here  */
+
+/* hero section starts from here  */
+.hero {
+  background: linear-gradient(
+      to left,
+      transparent,
+      rgba(41, 39, 39, 0.591),
+      rgba(20, 20, 20, 0.619)
+    ),
+    url(./Assets/Rectangle\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20rem;
+  height: 80rem;
+}
+
+.hero .hero-top {
+  width: 50%;
+}
+
+.hero .hero-top h1 {
+  text-transform: uppercase;
+  font-size: 9.5rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #ea0505;
+}
+
+.hero .hero-top p {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 3;
+  letter-spacing: 3.5px;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.hero .music {
+  width: 35%;
+  padding: 20px 30px;
+  box-shadow: 0 0 20px rgba(red, 0, 0, 0.4);
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero .music p {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.hero .music img {
+  height: 3rem;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hero .music div {
+  flex: 1;
+}
+
+.listeners {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.listeners img {
+  /* height: 8rem; */
+}
+
+.listeners .image2 {
+  position: absolute;
+  left: 14rem;
+}
+
+.listeners .image3 {
+  position: absolute;
+  left: 18rem;
+  height: 6rem;
+}
+
+.listeners .image4 {
+  position: absolute;
+  left: 23rem;
+  height: 6rem;
+  width: 6rem;
+  background-color: #3f3b3b;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listeners .world {
+  position: absolute;
+  left: 30rem;
+  font-size: 1.2rem;
+  color: white;
+  letter-spacing: 1.5px;
+}
+/* hero sectionsection ends here  */
