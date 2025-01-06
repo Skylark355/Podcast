@@ -407,10 +407,11 @@ section {
   margin-top: 7rem;
 }
 
-.explore-left{
+.explore-left {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  width: 40%;
 }
 
 .explores {
@@ -421,37 +422,166 @@ section {
   padding: 1rem 2rem;
   border-radius: 10px;
   gap: 2rem;
-  width: 100%;
-  
+  width: 90%;
 }
 
-.explores .e-image{
+.explores .e-image {
   height: 10rem;
 }
 
-.explore-details{
+.explore-details {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.explore-details p{
+.explore-details p {
   color: #00000080;
 }
 
-.explore-inline{
+.explore-inline {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.explore-inline img{
+.explore-inline img {
   height: 2rem;
 }
 
-.explore-right{
+.explore-right {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  width: 40%;
 }
 /* explore ends here  */
+
+/* offer starts from here  */
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.offer h1 {
+  font-size: 3rem;
+}
+
+.offer p {
+  font-size: 1.5rem;
+  color: #00000080;
+  width: 25%;
+  text-align: center;
+}
+
+.offer-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+  gap: 5rem;
+}
+
+.offer-detail {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer-detail img {
+  height: 5rem;
+}
+
+.offer-detail h1 {
+  font-size: 1.8rem;
+  line-height: 3;
+}
+
+.offer-detail p {
+  width: 75%;
+}
+/* offr ends here  */
+
+/* testiminila here  */
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background: url(./Assets/Mask\ group.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60rem;
+  color: white;
+}
+
+.testimonials p {
+  font-size: 2rem;
+  color: white;
+  line-height: 3;
+}
+
+.testimonials h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-bottom: 7rem;
+}
+
+.testimonials-cards {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.test-image {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.testimonials-card {
+  background-color: #fff;
+  width: 25%;
+  height: 30rem;
+  border-radius: 10px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.testimonials-card h1 {
+  font-size: 1.7rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.testimonials-card span {
+  color: #00000080;
+}
+
+.testimonials-card p {
+  font-size: 1.2rem;
+  color: #00000080;
+  line-height: 1.5;
+}
+
+.card-bottom {
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card-bottom p {
+  font-size: 1rem;
+}
+/* testimonial ends  */
