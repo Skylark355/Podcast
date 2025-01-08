@@ -686,7 +686,7 @@ input:checked + .toogle-button::before {
 }
 
 .plan p {
-  font-size: 10rem;
+  font-size: 8rem;
   font-weight: 500;
   color: black;
   margin: 0;
@@ -850,3 +850,10 @@ hr {
 }
 
 /* footer ends here  */
+
+
+@media (min-width: 1281px) {
+  .hero .hero-top h1 {
+    width: 90%;
+  }
+}
