@@ -674,6 +674,23 @@ input:checked + .toogle-button::before {
   cursor: pointer;
 }
 
+.plan:hover p {
+  color: white;
+} 
+
+.plan:hover span {
+  color: white;
+} 
+
+.plan:hover h5 {
+  background-color: white;
+  color: black;
+} 
+
+.plan:hover .rate img {
+  overlay: white;
+} 
+
 .plan h4 {
   font-size: 2rem;
   font-weight: 500;
