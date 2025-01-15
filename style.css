@@ -242,6 +242,10 @@ section {
   color: #00000080;
 }
 
+.card-left img:hover {
+  cursor: pointer;
+}
+
 .card-right .top {
   display: flex;
   align-items: center;
@@ -256,6 +260,10 @@ section {
 .card-right .top .top1 img {
   height: 1.5rem;
   display: flex;
+}
+
+.card-right .top .top1 img:hover {
+  cursor: pointer;
 }
 /* card ends here  */
 
@@ -350,6 +358,10 @@ section {
   height: 4rem;
 }
 
+.trending-right .down img:hover {
+  cursor: pointer;
+}
+
 .trending-right .down-middle h2 {
   font-size: 1.6rem;
   font-weight: 400;
@@ -368,6 +380,12 @@ section {
   padding: 1rem 2rem;
   font-weight: 300;
   border-radius: 20px;
+}
+
+.trending-right .down h4:hover {
+  background-color: #ea0505;
+  color: white;
+  cursor: pointer;
 }
 /* trending ends here  */
 
@@ -450,6 +468,10 @@ section {
 
 .explore-inline img {
   height: 2rem;
+}
+
+.explore-inline img:hover {
+  cursor: pointer;
 }
 
 .explore-right {
@@ -546,6 +568,10 @@ section {
 .test-image {
   background-color: white;
   border-radius: 50%;
+}
+
+.test-image:hover {
+  cursor: pointer;
 }
 
 .testimonials-card {
@@ -675,6 +701,7 @@ input:checked + .toogle-button::before {
   background-color: #ea0505;
   color: white;
   cursor: pointer;
+  padding: 5rem;
 }
 
 .plan:hover p {
@@ -803,6 +830,12 @@ input:checked + .toogle-button::before {
   outline: none;
   border: none;
 }
+
+.f-details button:hover {
+  cursor: pointer;
+  background-color: #ea0505;
+  color: white;
+}
 /* features ends here  */
 
 /* footer starts from here  */
@@ -833,6 +866,12 @@ input:checked + .toogle-button::before {
   border-radius: 30px;
 }
 
+.footer-top p:hover {
+  background-color: #ea0505;
+  color: white;
+  cursor: pointer;
+}
+
 hr {
   border-bottom: 1px solid #00000080;
   margin-bottom: 5rem;
@@ -856,6 +895,10 @@ hr {
   font-weight: 200;
 }
 
+.footer-middle p:hover {
+  color: #ea0505;
+}
+
 .footer-middle1 {
   width: 30%;
 }
@@ -865,8 +908,13 @@ hr {
   font-weight: 200;
 }
 
+.footer-middle1 p:hover {
+  color: white;
+}
+
 .footer-socials {
   margin-bottom: 3rem;
+  cursor: pointer;
 }
 
 /* footer ends here  */
