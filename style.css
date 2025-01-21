@@ -99,10 +99,9 @@ section {
 /* hero section starts from here  */
 .hero {
   background: linear-gradient(
-      to left,
-      transparent,
-      rgba(41, 39, 39, 0.591),
-      rgba(20, 20, 20, 0.619)
+      
+      rgba(0, 0, 0, 0.591),
+      rgba(0, 0, 0, 0.619)
     ),
     url(./Assets/Rectangle\ 1.png);
   background-size: cover;
@@ -282,6 +281,7 @@ section {
 .trending-top p {
   font-size: 1.5rem;
   color: #00000080;
+  cursor: pointer;
 }
 
 .trending-details {
@@ -897,6 +897,7 @@ hr {
 
 .footer-middle p:hover {
   color: #ea0505;
+  cursor: pointer;
 }
 
 .footer-middle1 {
@@ -910,6 +911,10 @@ hr {
 
 .footer-middle1 p:hover {
   color: white;
+}
+
+.footer-socials img{
+  height: 3rem;
 }
 
 .footer-socials {
