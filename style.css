@@ -98,11 +98,7 @@ section {
 
 /* hero section starts from here  */
 .hero {
-  background: linear-gradient(
-      
-      rgba(0, 0, 0, 0.591),
-      rgba(0, 0, 0, 0.619)
-    ),
+  background: linear-gradient(rgba(0, 0, 0, 0.591), rgba(0, 0, 0, 0.619)),
     url(./Assets/Rectangle\ 1.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -418,7 +414,7 @@ section {
 .explore-links a:hover {
   background-color: #ea0505;
   color: white;
-  padding: 0.3rem;
+  padding: 0 0.7rem;
   border-radius: 10px;
 }
 
@@ -701,7 +697,8 @@ input:checked + .toogle-button::before {
   background-color: #ea0505;
   color: white;
   cursor: pointer;
-  padding: 5rem;
+  transition: 0.5s ease;
+  /* padding: 5rem; */
 }
 
 .plan:hover p {
@@ -719,6 +716,7 @@ input:checked + .toogle-button::before {
 
 .plan:hover .rate img {
   overlay: white;
+  filter: invert(1);
 }
 
 .plan h4 {
@@ -913,7 +911,7 @@ hr {
   color: white;
 }
 
-.footer-socials img{
+.footer-socials img {
   height: 3rem;
 }
 
